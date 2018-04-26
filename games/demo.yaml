@@ -1,0 +1,20 @@
+seed: "a random string of your choice, do not change after printing the QR codes!"
+puzzles:
+  teamA-01:
+    team: A
+    number: 1
+    question: "What year was ..."
+    answer: "2013"
+    followUp: "Nice, go to the bar for your next puzzle!"
+  teamA-02:
+    team: A
+    number: 2
+    question: "What's the name of ..."
+    answer: "Hybris"
+    followUp: "Look up !"
+  teamB-01:
+    team: B
+    number: 1
+    question: "What's the name of ..."
+    answer: "Hybris"
+    followUp: "Check near the pool!"

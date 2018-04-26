@@ -1,0 +1,10 @@
+#when you change the seed below, or the filename of the game (here test.yaml), all QR codes change.
+seed: "any string"
+puzzles:
+# Changing the key of a given puzzle, here teamA-01, will also change the QR code for that puzzle
+  teamC-01:
+    team: C
+    number: 1
+    question: "How do you call a...?"
+    answer: "foo"
+    followUp: "Nice, go to the bar for your next puzzle!"

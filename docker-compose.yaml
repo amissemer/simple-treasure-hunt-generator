@@ -1,0 +1,11 @@
+version: "2"
+volumes:
+  grapes-cache:
+services:
+  groovy:
+    image: groovy:alpine
+    volumes:
+     - .:/home/groovy/scripts
+     - grapes-cache:/home/groovy/.groovy/grapes
+    working_dir: /home/groovy/scripts
+    command: [ 'groovy', 'generate' ]
